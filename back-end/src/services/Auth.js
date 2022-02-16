@@ -56,20 +56,6 @@ passport.use(
 
 //facebook strategy
 
-passport.use(
-  new FacebookStrategy(
-    {
-      clientID: "",
-      clientSecret: "",
-      callbackURL: "/auth/facebook/callback",
-      profileFields: ["id", "displayName", "photos", "email", "gender", "name"],
-    },
-    async (accessToken, refreshToken, profile, done) => {
-      done(null, profile);
-    }
-  )
-);
-
 //local login
 
 passport.use(
