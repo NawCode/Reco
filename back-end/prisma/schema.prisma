@@ -1,0 +1,111 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id          Int           @id @default(autoincrement())
+  firstname   String?       @db.VarChar(100)
+  lastname    String?      @db.VarChar(100)
+  gender      Int?          @db.TinyInt
+  dateOfBirth DateTime?     @db.Date
+  avatar      String?       @db.VarChar(500)
+  createdOn   DateTime      @default(now())
+  email       String        @db.VarChar(255)
+  password    String?        @db.VarChar(255)
+  newsletter  Int?           @db.TinyInt
+  provider    String?
+  role        Role      @default(USER)   
+  booking     UserBooking[]
+  preference  Preference[]
+  tags        UserTags[]
+
+  @@unique([email])
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+model UserTags {
+  tag       Tag     @relation(fields: [tagId], references: [id])
+  tagId     Int
+  user      User    @relation(fields: [userId], references: [id])
+  userId    Int
+
+  @@id([tagId, userId])
+}
+
+model Event {
+  id      Int           @id @default(autoincrement())
+  name    String        @db.VarChar(255)
+  date    DateTime
+  price   Int
+  ticket  String?       @db.VarChar(255)
+  tag     Tag?          @relation(fields: [tagId], references: [id])
+  tagId   Int?
+  place   Place?        @relation(fields: [placeId], references: [id])
+  placeId Int?
+  booking UserBooking[]
+}
+
+model Place {
+  id              Int           @id @default(autoincrement())
+  name            String        @db.VarChar(255)
+  phone           String?       @db.VarChar(55)
+  address         String        @db.VarChar(255) @default("")
+  lat             Float
+  lng             Float
+  tag     Tag?          @relation(fields: [tagId], references: [id])
+  tagId   Int?
+  neighborhood    Neighborhood  @relation(fields: [neighborhoodId], references: [id])
+  neighborhoodId  Int
+  event           Event[]
+}
+
+model Neighborhood {
+  id     Int    @id @default(autoincrement())
+  name   String @db.VarChar(255)
+  lat    Float
+  lng    Float
+  city   City   @relation(fields: [cityId], references: [id])
+  cityId Int
+  place Place[]
+}
+
+model City {
+  id           Int            @id @default(autoincrement())
+  name         String         @db.VarChar(255)
+  neighborhood Neighborhood[]
+}
+
+model Tag {
+  id          Int           @id @default(autoincrement())
+  label       String        @db.VarChar(255)
+  event       Event[]
+  preference  Preference[]
+  users       UserTags[]
+  places      Place[]
+}
+
+model UserBooking {
+  id      Int   @id @default(autoincrement())
+  user    User  @relation(fields: [userId], references: [id])
+  event   Event @relation(fields: [eventId], references: [id])
+  userId  Int
+  eventId Int
+  number  Int
+}
+
+model Preference {
+  id      Int   @id @default(autoincrement())
+  user    User  @relation(fields: [userId], references: [id])
+  tag    Tag  @relation(fields: [tagId], references: [id])
+  userId  Int
+  tagId Int
+}

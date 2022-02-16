@@ -1,0 +1,30 @@
+# Dependencies
+node_modules
+
+# Builds
+build
+
+# Configuration files
+.env
+
+# Logs
+logs
+*.log
+*.gz
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS X specifics files
+.DS_Store*
+Icon?
+._*
+
+# Windows specifics files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux specifics files
+.directory
+*~

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "firstname": "Pauline",
+    "lastname": "Royo",
+    "gender": null,
+    "dateOfBirth": null,
+    "avatar": "https://lh3.googleusercontent.com/a-/AOh14GhQvSJdw0pzUIZxTFzM1D6XG0F7cQS5Guv8hRYnyQ=s96-c",
+    "createdOn": "2022-01-14T14:23:05.131Z",
+    "email": "pauline.marine.royo@gmail.com",
+    "password": null,
+    "newsletter": null
+  },
+  {
+    "id": 2,
+    "firstname": "Nawfel",
+    "lastname": "Bouhadjar",
+    "gender": null,
+    "dateOfBirth": null,
+    "avatar": "https://lh3.googleusercontent.com/a/AATXAJzdPGpmZFmeXTdJybGUax8Q8WLdFh92NXT8Du0J=s96-c",
+    "createdOn": "2022-01-18T15:43:47.155Z",
+    "email": "nawfel.bouhadjar@gmail.com",
+    "password": null,
+    "newsletter": null
+  }
+]

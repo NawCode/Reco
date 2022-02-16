@@ -1,0 +1,524 @@
+[
+  {
+    "id": 1,
+    "name": "Gus l'illusionniste",
+    "date": "2022-03-17T20:30:00.000Z",
+    "price": 30,
+    "ticket": "https://www.theatrefemina.com/evenement/gus-lillusionniste/",
+    "tagId": 4,
+    "placeId": 1
+  },
+  {
+    "id": 2,
+    "name": "Kheiron",
+    "date": "2022-02-25T20:30:00.000Z",
+    "price": 33,
+    "ticket": "https://www.theatrefemina.com/evenement/kheiron/",
+    "tagId": 4,
+    "placeId": 1
+  },
+  {
+    "id": 3,
+    "name": "Fracasse",
+    "date": "2022-03-12T20:30:00.000Z",
+    "price": 30,
+    "ticket": "https://www.casinosbarriere.com/fr/bordeaux/spectacles-et-animations/theatre/fracasse0.html",
+    "tagId": 4,
+    "placeId": 3
+  },
+  {
+    "id": 4,
+    "name": "Hamlet",
+    "date": "2022-04-07T19:30:00.000Z",
+    "price": 8,
+    "ticket": "https://www.tnba.org/evenements/hamlet",
+    "tagId": 4,
+    "placeId": 4
+  },
+  {
+    "id": 5,
+    "name": "Les amants sacrifiés",
+    "date": "2022-03-01T14:45:00.000Z",
+    "price": 7,
+    "ticket": "https://www.cinemas-utopia.org/bordeaux/index.php?id=5987&mode=film",
+    "tagId": 1,
+    "placeId": 5
+  },
+  {
+    "id": 6,
+    "name": "Luv Resval",
+    "date": "2022-03-11T21:00:00.000Z",
+    "price": 21,
+    "ticket": "https://www.fnacspectacles.com/place-spectacle/luv-resval-art9408d50ec0a8281476a199e6e1603265-lt.htm",
+    "tagId": 3,
+    "placeId": 6
+  },
+  {
+    "id": 7,
+    "name": "Board'elle fest",
+    "date": "2022-01-22T10:00:00.000Z",
+    "price": 0,
+    "ticket": "https://darwin.camp/agenda/board-elle-fest/",
+    "tagId": 7,
+    "placeId": 7
+  },
+  {
+    "id": 8,
+    "name": "Contes au Pays d'Arcadie",
+    "date": "2022-01-22T00:00:00.000Z",
+    "price": 7,
+    "ticket": "https://www.bordeaux.fr/agendaGeneral/pgFicheEvt.psml?_nfpb=true&_pageLabel=pgFicheEvt&classofcontent=evenement&id=199859&iEvt=10&retourListe=1&classListe=agendaContribuable&idListe=5955&typeAgendaListe=&nbreEvtPageListe=25",
+    "tagId": 8,
+    "placeId": 8
+  },
+  {
+    "id": 9,
+    "name": "Mémoire(s)",
+    "date": "2022-02-22T00:00:00.000Z",
+    "price": 0,
+    "ticket": "https://archives.bordeaux-metropole.fr/actualites/rendez-vous-1/memoire-s-260/n:44",
+    "tagId": 8,
+    "placeId": 84
+  },
+  {
+    "id": 10,
+    "name": "Bordeaux-les-Bains.Les bienfaits de l’eau. 18e-20e siècles",
+    "date": "2022-02-22T21:00:00.000Z",
+    "price": 0,
+    "ticket": "https://archives.bordeaux-metropole.fr/actualites/rendez-vous-1/bordeaux-les-bains-les-bienfaits-de-l-eau-xviii-sup-e-sup-xx-sup-e-sup-siecles-231/n:44",
+    "tagId": 8,
+    "placeId": 84
+  },
+  {
+    "id": 12,
+    "name": "La nuit de la lecture",
+    "date": "2022-01-22T16:30:00.000Z",
+    "price": 0,
+    "ticket": "https://www.bordeaux.fr/e200096/nuits-de-la-lecture",
+    "tagId": 5,
+    "placeId": null
+  },
+  {
+    "id": 13,
+    "name": "La fabrique à chimères",
+    "date": "2022-03-02T15:00:00.000Z",
+    "price": 5,
+    "ticket": "https://www.bordeaux.fr/agendaGeneral/pgFicheEvt.psml?_nfpb=true&_pageLabel=pgFicheEvt&classofcontent=evenement&id=199728&iEvt=7&retourListe=1&classListe=agendaContribuable&idListe=8194&typeAgendaListe=&nbreEvtPageListe=25",
+    "tagId": 6,
+    "placeId": 8
+  },
+  {
+    "id": 14,
+    "name": "B...Comme Beethoven",
+    "date": "2022-02-06T11:00:00.000Z",
+    "price": 26,
+    "ticket": "https://www.theatrefemina.com/evenement/b-comme-beethoven/",
+    "tagId": 3,
+    "placeId": 1
+  },
+  {
+    "id": 15,
+    "name": "Angelina",
+    "date": "2022-02-27T16:00:00.000Z",
+    "price": 35,
+    "ticket": "https://www.theatrefemina.com/evenement/angelina/",
+    "tagId": 3,
+    "placeId": 1
+  },
+  {
+    "id": 16,
+    "name": "Le choeur et l'élixir d'amour",
+    "date": "2022-03-26T15:00:00.000Z",
+    "price": 1,
+    "ticket": "https://www.opera-bordeaux.com/concert-le-choeur-et-lelixir-damour-18276",
+    "tagId": 6,
+    "placeId": 2
+  },
+  {
+    "id": 17,
+    "name": "Paysans designers, l’agriculture en mouvement",
+    "date": "2022-05-08T15:00:00.000Z",
+    "price": 0,
+    "ticket": "https://madd-bordeaux.fr/expositions/paysans-designers-un-art-du-vivant",
+    "tagId": 8,
+    "placeId": 27
+  },
+  {
+    "id": 18,
+    "name": "Association Regard 9",
+    "date": "2022-06-01T15:00:00.000Z",
+    "price": 0,
+    "ticket": "https://www.bordeaux.fr/o58908/regard-9",
+    "tagId": 7,
+    "placeId": null
+  },
+  {
+    "id": 19,
+    "name": "Musical Ecran",
+    "date": "2022-09-01T14:45:00.000Z",
+    "price": 25,
+    "ticket": "http://www.bordeauxrock.com/festival-musical-ecran/",
+    "tagId": 3,
+    "placeId": 5
+  },
+  {
+    "id": 20,
+    "name": "Les Tropicales",
+    "date": "2022-07-01T22:30:00.000Z",
+    "price": 0,
+    "ticket": "http://www.sofilm-tropicales.fr/",
+    "tagId": 1,
+    "placeId": 1
+  },
+  {
+    "id": 21,
+    "name": "Le bassin des Lumières",
+    "date": "2022-04-01T10:00:00.000Z",
+    "price": 14,
+    "ticket": "https://www.bassins-lumieres.com/",
+    "tagId": 8,
+    "placeId": 46
+  },
+  {
+    "id": 22,
+    "name": "H.F Thiefaine",
+    "date": "2022-01-22T20:30:00.000Z",
+    "price": 46,
+    "ticket": "https://www.fnacspectacles.com/place-spectacle/ticket-evenement/variete-et-chanson-francaises-h-f-thiefaine-manbohft-lt.htm",
+    "tagId": 3,
+    "placeId": 1
+  },
+  {
+    "id": 23,
+    "name": "CROWD - Gisèle Vienne",
+    "date": "2022-01-20T00:00:00.000Z",
+    "price": 25,
+    "ticket": "https://www.bdxc.fr/agenda/evenement/155203/spectacle-crowd-gisele-vienne-tnba-du-mercredi-19-janv-2022-au-jeudi-20-janv-2022",
+    "tagId": 4,
+    "placeId": 4
+  },
+  {
+    "id": 24,
+    "name": "BD CONCERT - TOTORRO & FRIEND / FABCARO : Et si l'amour c'était aimer ?",
+    "date": "2022-01-27T00:00:00.000Z",
+    "price": 18,
+    "ticket": "http://www.rockschool-barbey.com/agenda/677/bd-concert-totorro-friend-fabcaro-et-si-lamour-cetait-aimer-rock-school-barbey-jeudi-27-janv-2022",
+    "tagId": 3,
+    "placeId": 6
+  },
+  {
+    "id": 25,
+    "name": "Les hommes viennent de Mars, les femmes de Venus",
+    "date": "2022-04-28T00:00:00.000Z",
+    "price": 24,
+    "ticket": "https://www.obillet.fr/comedie/les-hommes-viennent-de-mars-les-femmes-de-venus",
+    "tagId": 4,
+    "placeId": 53
+  },
+  {
+    "id": 26,
+    "name": "Des Chiffons et des lettres",
+    "date": "2022-03-12T00:00:00.000Z",
+    "price": 24,
+    "ticket": "https://www.bdxc.fr/agenda/evenement/155278/spectacle-des-chiffons-et-des-lettres-theatre-trianon-du-jeudi-16-dec-2021-au-samedi-12-mars-2022",
+    "tagId": 4,
+    "placeId": 53
+  },
+  {
+    "id": 27,
+    "name": "Madame est une fausse maigre",
+    "date": "2022-04-01T00:00:00.000Z",
+    "price": 24,
+    "ticket": "https://www.bdxc.fr/agenda/evenement/154289/spectacle-madame-est-une-fausse-maigre-theatre-trianon-du-vendredi-01-avril-2022-au-samedi-28-mai-2022",
+    "tagId": 4,
+    "placeId": 53
+  },
+  {
+    "id": 28,
+    "name": "Regis Mailhot",
+    "date": "2022-05-12T20:30:00.000Z",
+    "price": 24,
+    "ticket": "https://www.bdxc.fr/agenda/evenement/155287/spectacle-regis-mailhot-theatre-trianon-jeudi-12-mai-2022",
+    "tagId": 4,
+    "placeId": 53
+  },
+  {
+    "id": 29,
+    "name": "Marianne James",
+    "date": "2022-06-09T00:00:00.000Z",
+    "price": 29,
+    "ticket": "https://www.bdxc.fr/agenda/evenement/155336/spectacle-marianne-james-theatre-trianon-du-jeudi-09-juin-2022-au-samedi-11-juin-2022",
+    "tagId": 4,
+    "placeId": 53
+  },
+  {
+    "id": 30,
+    "name": "100 millions d'années sous les mers",
+    "date": "2022-05-18T00:00:00.000Z",
+    "price": 14,
+    "ticket": "https://www.bdxc.fr/agenda/evenement/155176/expo-100-millions-dannees-sous-les-mers-musee-mer-marine-du-mardi-01-juin-2021-au-mercredi-18-mai-2022",
+    "tagId": 8,
+    "placeId": 50
+  },
+  {
+    "id": 31,
+    "name": "Sanseverino",
+    "date": "2022-04-06T21:00:00.000Z",
+    "price": 28,
+    "ticket": "https://www.bdxc.fr/agenda/evenement/154623/concert-sanseverino-rock-school-barbey-mercredi-06-avril-2022",
+    "tagId": 6,
+    "placeId": 6
+  },
+  {
+    "id": 32,
+    "name": "Pretty inside release party w/ unschooling",
+    "date": "2022-02-11T19:30:00.000Z",
+    "price": 12,
+    "ticket": "https://www.bdxc.fr/agenda/evenement/156764/concert-pretty-inside-release-party-w-unschooling-blonde-venus-vendredi-11-fevr-2022",
+    "tagId": 3,
+    "placeId": 54
+  },
+  {
+    "id": 33,
+    "name": "Chrystabell",
+    "date": "2022-02-16T19:30:00.000Z",
+    "price": 14,
+    "ticket": "https://www.bdxc.fr/agenda/evenement/156389/concert-chrystabell-blonde-venus-mercredi-16-fevr-2022",
+    "tagId": 3,
+    "placeId": 54
+  },
+  {
+    "id": 34,
+    "name": "Oklou",
+    "date": "2022-02-18T19:30:00.000Z",
+    "price": 13,
+    "ticket": "https://www.bdxc.fr/agenda/evenement/156392/concert-oklou-blonde-venus-vendredi-18-fevr-2022",
+    "tagId": 3,
+    "placeId": 54
+  },
+  {
+    "id": 35,
+    "name": "The KVB",
+    "date": "2022-03-01T19:30:00.000Z",
+    "price": 13,
+    "ticket": "https://www.bdxc.fr/agenda/evenement/156393/concert-the-kvb-blonde-venus-mardi-01-mars-2022",
+    "tagId": 3,
+    "placeId": 54
+  },
+  {
+    "id": 36,
+    "name": "Ottone Pesante",
+    "date": "2022-03-16T19:30:00.000Z",
+    "price": 9,
+    "ticket": "https://www.bdxc.fr/agenda/evenement/155581/concert-ottone-pesante-blonde-venus-mercredi-16-mars-2022",
+    "tagId": 3,
+    "placeId": 54
+  },
+  {
+    "id": 37,
+    "name": "Juan Wauters",
+    "date": "2022-03-25T00:00:00.000Z",
+    "price": 13,
+    "ticket": "https://www.bdxc.fr/agenda/evenement/155582/concert-juan-wauters-blonde-venus-vendredi-25-mars-2022",
+    "tagId": 3,
+    "placeId": 54
+  },
+  {
+    "id": 38,
+    "name": "Weird Bloom",
+    "date": "2022-03-26T19:30:00.000Z",
+    "price": 9,
+    "ticket": "https://www.bdxc.fr/agenda/evenement/155583/concert-weird-bloom-blonde-venus-samedi-26-mars-2022",
+    "tagId": 3,
+    "placeId": 54
+  },
+  {
+    "id": 39,
+    "name": "Afrique, savane sauvage",
+    "date": "2022-01-31T00:00:00.000Z",
+    "price": 0,
+    "ticket": "https://www.bordeaux.fr/agendaGeneral/pgFicheEvt.psml?_nfpb=true&_pageLabel=pgFicheEvt&classofcontent=evenement&id=193669&iEvt=13&retourListe=1&classListe=agendaContribuable&idListe=5955&typeAgendaListe=&nbreEvtPageListe=25",
+    "tagId": 8,
+    "placeId": 41
+  },
+  {
+    "id": 40,
+    "name": "Hugo Pratt. Lignes d'horizons",
+    "date": "2022-02-06T00:00:00.000Z",
+    "price": 5,
+    "ticket": "https://www.bordeaux.fr/agendaGeneral/pgFicheEvt.psml?_nfpb=true&_pageLabel=pgFicheEvt&classofcontent=evenement&id=192187&iEvt=14&retourListe=1&classListe=agendaContribuable&idListe=5955&typeAgendaListe=&nbreEvtPageListe=25",
+    "tagId": 8,
+    "placeId": 43
+  },
+  {
+    "id": 41,
+    "name": "Eva Kot'átková",
+    "date": "2022-02-11T00:00:00.000Z",
+    "price": 7,
+    "ticket": "https://www.bordeaux.fr/agendaGeneral/pgFicheEvt.psml?_nfpb=true&_pageLabel=pgFicheEvt&classofcontent=evenement&id=200252&iEvt=17&retourListe=1&classListe=agendaContribuable&idListe=5955&typeAgendaListe=&nbreEvtPageListe=25",
+    "tagId": 8,
+    "placeId": 42
+  },
+  {
+    "id": 42,
+    "name": "Supplément d'âme",
+    "date": "2022-03-05T00:00:00.000Z",
+    "price": 0,
+    "ticket": "https://www.bordeaux.fr/agendaGeneral/pgFicheEvt.psml?_nfpb=true&_pageLabel=pgFicheEvt&classofcontent=evenement&id=199637&iEvt=21&retourListe=1&classListe=agendaContribuable&idListe=5955&typeAgendaListe=&nbreEvtPageListe=25",
+    "tagId": 8,
+    "placeId": 29
+  },
+  {
+    "id": 43,
+    "name": "Le club du Poisson-Lune",
+    "date": "2022-03-27T00:00:00.000Z",
+    "price": 7,
+    "ticket": "http://www.capc-bordeaux.fr/programme/le-club-du-poisson-lune",
+    "tagId": 8,
+    "placeId": 42
+  },
+  {
+    "id": 44,
+    "name": "Olu Ogunnaike",
+    "date": "2022-03-27T00:00:00.000Z",
+    "price": 7,
+    "ticket": "http://www.capc-bordeaux.fr/programme/olu-ogunnaike",
+    "tagId": 8,
+    "placeId": 42
+  },
+  {
+    "id": 45,
+    "name": "Corps et sport",
+    "date": "2022-03-04T00:00:00.000Z",
+    "price": 9,
+    "ticket": "https://www.cap-sciences.net/au-programme/expositions/corps-et-sport",
+    "tagId": 6,
+    "placeId": 55
+  },
+  {
+    "id": 46,
+    "name": "Des Jardins dans la ville",
+    "date": "2022-05-08T00:00:00.000Z",
+    "price": 0,
+    "ticket": "https://madd-bordeaux.fr/agenda/des-jardins-dans-la-ville",
+    "tagId": 8,
+    "placeId": 44
+  },
+  {
+    "id": 47,
+    "name": "Rosa Bonheur à Bordeaux",
+    "date": "2022-05-18T00:00:00.000Z",
+    "price": 7,
+    "ticket": "https://www.musba-bordeaux.fr/fr/article/rosa-bonheur-a-bordeaux",
+    "tagId": 8,
+    "placeId": 8
+  },
+  {
+    "id": 48,
+    "name": "Collectionner la nature ?",
+    "date": "2022-04-04T00:00:00.000Z",
+    "price": 7,
+    "ticket": "https://www.museum-bordeaux.fr/accueil/collectionner-la-nature-en-photo",
+    "tagId": 8,
+    "placeId": 41
+  },
+  {
+    "id": 49,
+    "name": "Picasso l'effervescence des formes",
+    "date": "2022-04-15T00:00:00.000Z",
+    "price": 21,
+    "ticket": "https://www.laciteduvin.com/fr/agenda/picasso-l-effervescence-des-formes?occurrence=3872",
+    "tagId": 8,
+    "placeId": 47
+  },
+  {
+    "id": 50,
+    "name": "Le tour du jour en quatre-vingts mondes",
+    "date": "2022-05-13T00:00:00.000Z",
+    "price": 7,
+    "ticket": "http://www.capc-bordeaux.fr/programme/le-tour-du-jour-en-quatre-vingts-mondes",
+    "tagId": 8,
+    "placeId": 42
+  },
+  {
+    "id": 51,
+    "name": "Glovie",
+    "date": "2022-02-01T00:00:00.000Z",
+    "price": 26,
+    "ticket": "https://www.tnba.org/evenements/glovie",
+    "tagId": 4,
+    "placeId": 4
+  },
+  {
+    "id": 52,
+    "name": "Gloucester Time Matériau Shakespeare Richard III",
+    "date": "1970-02-05T20:30:00.000Z",
+    "price": 26,
+    "ticket": "https://www.bordeaux.fr/agendaGeneral/pgFicheEvt.psml?_nfpb=true&_pageLabel=pgFicheEvt&classofcontent=evenement&id=197005&iEvt=1&retourListe=1&classListe=organisme&idListe=1243&nbreEvtPageListe=3",
+    "tagId": 4,
+    "placeId": 4
+  },
+  {
+    "id": 53,
+    "name": "La carte de l'aventure",
+    "date": "2022-03-16T00:00:00.000Z",
+    "price": 5,
+    "ticket": "https://www.bordeaux.fr/agendaGeneral/pgFicheEvt.psml?_nfpb=true&_pageLabel=pgFicheEvt&classofcontent=evenement&id=199602&iEvt=14&retourListe=1&classListe=agendaContribuable&idListe=5834&typeAgendaListe=&nbreEvtPageListe=25",
+    "tagId": 6,
+    "placeId": 8
+  },
+  {
+    "id": 54,
+    "name": "Le secret du château",
+    "date": "2022-02-20T00:00:00.000Z",
+    "price": 0,
+    "ticket": "https://www.billetweb.fr/le-secret-du-chateau",
+    "tagId": 6,
+    "placeId": 88
+  },
+  {
+    "id": 55,
+    "name": "Atelier BD Croqu'en bulle",
+    "date": "2022-02-24T00:00:00.000Z",
+    "price": 5,
+    "ticket": "https://www.bordeaux.fr/e199758/atelier-bd-croqu-en-bulle",
+    "tagId": 6,
+    "placeId": 8
+  },
+  {
+    "id": 56,
+    "name": "De la goutte d'eau naît la rose",
+    "date": "2022-02-27T14:30:00.000Z",
+    "price": 12,
+    "ticket": "https://www.unairdebordeaux.fr/evenements/2022/de-la-goutte-deau-nait-la-rose/",
+    "tagId": 6,
+    "placeId": 88
+  },
+  {
+    "id": 57,
+    "name": "Festival International Vive la Magie",
+    "date": "2022-01-22T00:00:00.000Z",
+    "price": 23,
+    "ticket": "https://www.theatrefemina.com/evenement/festival-vive-la-magie/",
+    "tagId": 6,
+    "placeId": 1
+  },
+  {
+    "id": 58,
+    "name": "Bruit du frigo",
+    "date": "2022-06-07T00:00:00.000Z",
+    "price": 0,
+    "ticket": "https://bruitdufrigo.com/",
+    "tagId": 7,
+    "placeId": 89
+  },
+  {
+    "id": 59,
+    "name": "Le 308",
+    "date": "2022-07-18T00:00:00.000Z",
+    "price": 0,
+    "ticket": "https://www.le308.com/",
+    "tagId": 7,
+    "placeId": 90
+  }
+]

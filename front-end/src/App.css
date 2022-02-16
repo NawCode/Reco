@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+    background: linear-gradient(
+      97deg,
+      rgba(92, 95, 218, 1) 4%,
+      rgba(228, 127, 42, 1) 100%
+    );
+    height: 100%;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  #root {
+    height: 100%;
+  }
+
+  /* SearchBar - Pour enlever le highlight de la barre de recherche */
+
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+    outline: none;
+  }
+
+  /*buttonLink class */
+  .buttonLink {
+    @apply h-12 flex rounded items-center justify-center uppercase font-nova;
+  }
+
+  .buttonLinkBurgerMenu {
+    @apply h-12  rounded flex items-center justify-center uppercase font-nova;
+  }
+
+  /* background class */
+
+  .bgGradient {
+    background: linear-gradient(
+      97deg,
+      rgba(92, 95, 218, 1) 4%,
+      rgba(228, 127, 42, 1) 100%
+    );
+  }
+
+  /* google  and fb login css */
+
+  .loginButton {
+    width: 150px;
+    padding: 16px 25px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+
+  .google {
+    background-color: #df4930;
+  }
+
+  .facebook {
+    background-color: #507cc0;
+  }
+
+  .instagram {
+    background-color: white;
+    /* background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d); */
+  }
+
+  .local {
+    background-color: blue;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .svg-width {
+  margin:0 auto;
+  width:18px
+  }
+}

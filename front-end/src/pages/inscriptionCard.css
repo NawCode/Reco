@@ -1,0 +1,18 @@
+#choices {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  grid-auto-rows: minmax(80px, auto);
+  padding: 5px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.selected {
+  background-color: black;
+}
+

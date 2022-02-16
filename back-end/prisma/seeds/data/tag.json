@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "label": "cinémas"
+  },
+  {
+    "id": 2,
+    "label": "musées"
+  },
+  {
+    "id": 3,
+    "label": "concerts"
+  },
+  {
+    "id": 4,
+    "label": "spectacles"
+  },
+  {
+    "id": 5,
+    "label": "bibliothèques"
+  },
+  {
+    "id": 6,
+    "label": "jeunes publics"
+  },
+  {
+    "id": 7,
+    "label": "arts divers"
+  },
+  {
+    "id": 8,
+    "label": "expositions"
+  }
+]

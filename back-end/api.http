@@ -1,0 +1,28 @@
+###
+PUT http://localhost:3001/api/users/update
+content-type: application/json
+
+{
+    "id": 2,
+    "firstname": "proute",
+    "lastname" : "okasoskao",
+    "email" : "anjdajodjan@fsklfklsfkolsf",
+    "newsletter" : 1
+}
+
+
+<<<<<<< HEAD
+GET http://localhost:3001/places/expositions
+
+####################################
+
+POST http://localhost:3001/api/places/type 
+content-type: application/json
+
+{
+"id" : 1
+}
+
+####################################
+=======
+>>>>>>> 45420f4491be4e79ac4bcb2db9ba44c90dd44a77
